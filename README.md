@@ -49,7 +49,7 @@ Each row in the output represents a **single segment within a flexfield structur
 
 ---
 
-## 🗂️ Tables Used
+##  Tables Used
 
 | Table Name | Description |
 |-----------|------------|
@@ -69,7 +69,7 @@ Each row in the output represents a **single segment within a flexfield structur
 
 ---
 
-## 📊 Output
+## Output
 
 The report returns:
 
