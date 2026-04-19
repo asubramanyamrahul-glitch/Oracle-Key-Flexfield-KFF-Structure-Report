@@ -400,6 +400,7 @@ Flexfield
  └── Structure
       └── Segment (in correct order)
 ```
+```sql
 SELECT 
 FIF.NAME KEY_FLEXFIELD_NAME                   
 ,FIF.KEY_FLEXFIELD_CODE                 
@@ -435,6 +436,8 @@ AND FKSV.segment_code = FKSI.segment_code
 AND  FKSV.DEFAULT_VALUE_SET_ID = FFVV.flex_value_set_id
 --AND  FKSV.last_update_date  >=  :p_last_refresh_date
 order by FIF.KEY_FLEXFIELD_CODE ,FKFS.STRUCTURE_CODE , FKSV.SEQUENCE_NUMBER
+```
+
 ---
 
 
